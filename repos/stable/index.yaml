@@ -300,6 +300,72 @@ entries:
     version: 0.5.4
   dynatrace-operator:
   - apiVersion: v2
+    appVersion: 0.8.2
+    created: '2022-08-30T13:02:54.038145202Z'
+    description: The Dynatrace Operator Helm chart for Kubernetes and OpenShift
+    digest: c276c998eceb0259f277a6148aaa0e752eeb989b042ce2669b321dcf2c1d33dc
+    home: https://www.dynatrace.com/
+    icon: https://assets.dynatrace.com/global/resources/Signet_Logo_RGB_CP_512x512px.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: marcell.sevcsik@dynatrace.com
+      name: 0sewa0
+    - email: christoph.muellner@dynatrace.com
+      name: chrismuellner
+    - email: lukas.hinterreiter@dynatrace.com
+      name: luhi-DT
+    name: dynatrace-operator
+    sources:
+    - https://github.com/Dynatrace/dynatrace-operator
+    type: application
+    urls:
+    - https://github.com/Dynatrace/dynatrace-operator/releases/download/v0.8.2/dynatrace-operator-0.8.2.tgz
+    version: 0.8.2
+  - apiVersion: v2
+    appVersion: 0.8.1
+    created: '2022-08-23T11:54:29.152433669Z'
+    description: The Dynatrace Operator Helm chart for Kubernetes and OpenShift
+    digest: ff0fa1aba381b594d087d25ca9c978428e7fda3bba96e76f12d27563730dce5c
+    home: https://www.dynatrace.com/
+    icon: https://assets.dynatrace.com/global/resources/Signet_Logo_RGB_CP_512x512px.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: marcell.sevcsik@dynatrace.com
+      name: 0sewa0
+    - email: christoph.muellner@dynatrace.com
+      name: chrismuellner
+    - email: lukas.hinterreiter@dynatrace.com
+      name: luhi-DT
+    name: dynatrace-operator
+    sources:
+    - https://github.com/Dynatrace/dynatrace-operator
+    type: application
+    urls:
+    - https://github.com/Dynatrace/dynatrace-operator/releases/download/v0.8.1/dynatrace-operator-0.8.1.tgz
+    version: 0.8.1
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: '2022-08-09T09:27:26.330353885Z'
+    description: The Dynatrace Operator Helm chart for Kubernetes and OpenShift
+    digest: b123edff7d5a7acdabef323ec8b846198ed7e4bedc96d40eb1e9f1121d5a6220
+    home: https://www.dynatrace.com/
+    icon: https://assets.dynatrace.com/global/resources/Signet_Logo_RGB_CP_512x512px.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: marcell.sevcsik@dynatrace.com
+      name: 0sewa0
+    - email: christoph.muellner@dynatrace.com
+      name: chrismuellner
+    - email: lukas.hinterreiter@dynatrace.com
+      name: luhi-DT
+    name: dynatrace-operator
+    sources:
+    - https://github.com/Dynatrace/dynatrace-operator
+    type: application
+    urls:
+    - https://github.com/Dynatrace/dynatrace-operator/releases/download/v0.8.0/dynatrace-operator-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
     appVersion: 0.7.2
     created: '2022-07-13T09:00:39.794023921Z'
     description: The Dynatrace Operator Helm chart for Kubernetes and OpenShift
@@ -346,9 +412,10 @@ entries:
     appVersion: 0.7.0
     created: '2022-06-23T13:39:10.105364309Z'
     description: The Dynatrace Operator Helm chart for Kubernetes and OpenShift
-    digest: 5cc26c8129371389f351530a848b89df4d7627e7f86f58393cc3ce383a1550cd
+    digest: d166260d9d09f88f7cb3f137b4138ebbb422321eb78d33e2aba16cdcda32823c
     home: https://www.dynatrace.com/
     icon: https://assets.dynatrace.com/global/resources/Signet_Logo_RGB_CP_512x512px.png
+    kubeVersion: '>=1.21.0-0'
     maintainers:
     - email: marcell.sevcsik@dynatrace.com
       name: 0sewa0
@@ -361,7 +428,7 @@ entries:
     - https://github.com/Dynatrace/dynatrace-operator
     type: application
     urls:
-    - https://github.com/Dynatrace/dynatrace-operator/releases/download/v0.7.0/dynatrace-operator-0.7.0.tgz
+    - https://github.com/dt-team-kubernetes/dynatrace-operator/releases/download/v0.7.0/dynatrace-operator-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.0
@@ -588,4 +655,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/Dynatrace/helm-charts/master/repos/stable/dynatrace-operator-0.1.0.tgz
     version: 0.1.0
-generated: '2022-07-13T09:00:39.792245239Z'
+generated: '2022-09-20T12:01:51.280068696Z'
